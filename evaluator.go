@@ -3,9 +3,10 @@ package filter
 import (
 	"errors"
 	"fmt"
-	"labix.org/v2/mgo/bson"
 	"regexp"
 	"time"
+
+	"github.com/globalsign/mgo/bson"
 )
 
 type Env map[string]string

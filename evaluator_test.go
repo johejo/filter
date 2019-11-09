@@ -1,9 +1,10 @@
 package filter
 
 import (
-	"labix.org/v2/mgo/bson"
 	"reflect"
 	"testing"
+
+	"github.com/globalsign/mgo/bson"
 )
 
 func TestEvaluate(t *testing.T) {
